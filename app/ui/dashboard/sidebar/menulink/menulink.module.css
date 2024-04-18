@@ -1,0 +1,13 @@
+.submenuTitle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+.submenuTitle:hover {
+  background: var(--bg);
+  border-radius: 10px;
+}

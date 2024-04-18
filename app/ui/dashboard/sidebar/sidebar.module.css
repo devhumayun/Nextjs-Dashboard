@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.userImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userInfo {
+}
+.name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.role {
+  font-size: 15px;
+  color: var(--textSoft);
+}
+.menuTitle {
+  margin-top: 15px;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.MenuName {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.logout {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+  font-size: 15px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+.logout:hover {
+  background: var(--bg);
+  border-radius: 10px;
+}
