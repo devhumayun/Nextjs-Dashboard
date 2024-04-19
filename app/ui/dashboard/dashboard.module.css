@@ -10,4 +10,25 @@
 .content {
   flex: 5;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+.main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cardStyle {
+  display: flex;
+  justify-content: space-between;
+}
+.rightbar {
+  flex: 1;
 }

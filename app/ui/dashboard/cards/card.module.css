@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-sm);
+  width: 32%;
+}
+.content {
+  display: flex;
+  gap: 10px;
+  color: var(--textSoft);
+}
+.usericon {
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.totalusertitle {
+  font-size: 15px;
+  font-weight: 400;
+}
+.totalusernumber {
+}
+.task {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+.parcent {
+  color: rgb(5, 141, 5);
+}
