@@ -13,7 +13,9 @@ const ProductPage = () => {
     <div className={styles.container}>
       <div className={styles.topbar}>
         <Search placeholder="Search products..." />
-        <Button />
+        <Link href={"/dashboard/products/add"}>
+          <Button />
+        </Link>
       </div>
       <table className={styles.table}>
         <thead className={styles.tableheading}>
