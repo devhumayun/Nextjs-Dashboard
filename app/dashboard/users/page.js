@@ -1,5 +1,11 @@
+import User from "@/app/ui/user/User";
+
 const UserPage = () => {
-  return <div>UserPage</div>;
+  return (
+    <div>
+      <User />
+    </div>
+  );
 };
 
 export default UserPage;

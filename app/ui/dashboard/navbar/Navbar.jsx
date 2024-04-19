@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 import {
     MdNotifications,
     MdOutlineChat,
-    MdPublic,
-    MdSearch,
+    MdPublic
 } from "react-icons/md";
+import Search from "../../search/Search";
 import styles from './navbar.module.css';
 
 const Navbar = () => {
@@ -15,10 +15,7 @@ const Navbar = () => {
         <div className={styles.container}>
             <div className={styles.title}>{pathname.split("/").pop()}</div>
             <div className={styles.menu}>
-                <div className={styles.search}>
-                    <MdSearch className={styles.searchIcon} />
-                    <input type="text" placeholder="Search..." className={styles.input} />
-                </div>
+                <Search placeholder="Search..." />
                 <div className={styles.icons}>
                     <MdOutlineChat size={20} />
                     <MdNotifications size={20} />

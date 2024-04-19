@@ -1,0 +1,61 @@
+.container {
+  background: var(--bgSoft);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  border-radius: 10px;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.addButton {
+  background-color: rgb(0, 159, 217);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  color: var(--textSoft);
+}
+.table th {
+  text-align: left;
+  padding-left: 10px;
+}
+.table td {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.product_iname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.productImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.productTitle {
+}
+.actionBtn {
+  display: flex;
+  gap: 10px;
+}
+.viewBtn {
+  font-size: 20px;
+}
+.deleteBtn {
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
