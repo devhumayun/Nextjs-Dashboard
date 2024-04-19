@@ -12,7 +12,9 @@ const UserPage = () => {
     <div className={styles.container}>
       <div className={styles.topbar}>
         <Search placeholder="Search users..." />
-        <Button />
+        <Link href={"/dashboard/users/add"}>
+          <Button />
+        </Link>
       </div>
       <table className={styles.table}>
         <thead className={styles.tableheading}>
