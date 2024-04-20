@@ -50,7 +50,10 @@ const ProductPage = () => {
             <td>12</td>
             <td>
               <div className={styles.actionBtn}>
-                <Link href={"#"} className={styles.viewBtn}>
+                <Link
+                  href={`/dashboard/products/6546879gh`}
+                  className={styles.viewBtn}
+                >
                   <GoEye />
                 </Link>
                 <button className={styles.deleteBtn}>

@@ -51,7 +51,7 @@ const UserPage = () => {
             <td>Active</td>
             <td>
               <div className={styles.actionBtn}>
-                <Link href={"#"} className={styles.viewBtn}>
+                <Link href={"/dashboard/users/89"} className={styles.viewBtn}>
                   <GoEye />
                 </Link>
                 <button className={styles.deleteBtn}>
